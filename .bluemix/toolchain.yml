@@ -16,9 +16,9 @@ services:
   sample-repo:
     service_id: hostedgit
     parameters:
-      repo_url: 'https://git.ng.bluemix.net/bluemix_ui_load100tc/aPublicRepoBy-load100tc'
-      #repo_url: 'https://git-integration.stage1.ng.bluemix.net/bluemix_ui_load175tc/aPublicRepo2Link2'
-      type: link
+      repo_name: "test-{{name}}"
+      repo_url: 'https://github.com/TinaLindhqvist/App4UITest.git
+      type: clone
       has_issues: false
   webide:
     service_id: orion
