@@ -1,17 +1,17 @@
 version: '2'
 template:
-  name: "A Toolchain with a custom tool"
+  name: "Minimal Toolchain Template"
   description: "This toolchain will be used in System Test. Click CREATE to start."
   image: data:image/png;base64,$file(toolchain.png,base64)
   info:
     git url: >-
-      [https://github.com/TinaLindhqvist/anotherToolTemplate](https://github.com/TinaLindhqvist/anotherToolTemplate)
+      [https://github.com/TinaLindhqvist/minimal-toolchain](https://github.com/TinaLindhqvist/minimal-toolchain)
     git branch: >-
-      [master](https://github.com/TinaLindhqvist/anotherToolTemplate/tree/master)
+      [master](https://github.com/TinaLindhqvist/minimal-toolchain/tree/master)
 toolchain:
-  name: 'anotherToolTemplate-{{timestamp}}'
+  name: 'aMinToolchain-{{timestamp}}'
   template:
-    getting_started: "Getting Started Text"
+    getting_started: "The Minimal Toolchain contains Git Labs and Web IDE integrations. Let's start!"
 services:
   sample-repo:
     service_id: hostedgit
