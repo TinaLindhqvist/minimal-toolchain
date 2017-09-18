@@ -2,7 +2,7 @@ version: '2'
 template:
   name: "A Toolchain with a custom tool"
   description: "This toolchain will be used in System Test. Click CREATE to start."
-  image: data:image/png;base64,$file(minimaltoolchain.png,base64)
+  image: data:image/png;base64,$file(toolchain.png,base64)
   info:
     git url: >-
       [https://github.com/TinaLindhqvist/anotherToolTemplate](https://github.com/TinaLindhqvist/anotherToolTemplate)
