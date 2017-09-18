@@ -3,7 +3,7 @@ template:
   name: 'Minimal Toolchain Template'
   description: 'This toolchain will be used in System Test. Click CREATE to start.'
   icon: toolchainIcon.png
-  image: data:image/png;base64,$file(toolchain.png,base64)
+  image: toolchain.png
   info:
     git url: >-
       [https://github.com/TinaLindhqvist/minimal-toolchain](https://github.com/TinaLindhqvist/minimal-toolchain)
